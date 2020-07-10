@@ -3,45 +3,146 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7120332624B72E7300063859 /* InverventionValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7120332524B72E7300063859 /* InverventionValidation.swift */; };
+		7120332E24B7458E00063859 /* ReparoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7120332D24B7458E00063859 /* ReparoTests.swift */; };
+		7120333624B745AC00063859 /* InterventionValidationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7120333524B745AC00063859 /* InterventionValidationTests.swift */; };
+		7150FE2124B4A30400764E91 /* IssueCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150FE2024B4A30400764E91 /* IssueCreationView.swift */; };
+		7150FE2324B4A34100764E91 /* IssueCreation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7150FE2224B4A34100764E91 /* IssueCreation.swift */; };
+		716A8D1824B4B16900FAB383 /* IssueTypeFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A8D1724B4B16900FAB383 /* IssueTypeFormView.swift */; };
+		716A8D1A24B4B26D00FAB383 /* IssuePrecisionFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A8D1924B4B26D00FAB383 /* IssuePrecisionFormView.swift */; };
+		716A8D1C24B4B4E800FAB383 /* IssueConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716A8D1B24B4B4E800FAB383 /* IssueConfirmationView.swift */; };
+		718A6CDF24B4703D00567E03 /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A6CDE24B4703D00567E03 /* DatabaseService.swift */; };
+		718A6CE324B4724500567E03 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718A6CE224B4724500567E03 /* Main.swift */; };
+		718DF00424B76AE70096CD1E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718DF00324B76AE70096CD1E /* MainView.swift */; };
 		719CE8CF24B0C3C300A23AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CE8CE24B0C3C300A23AE5 /* AppDelegate.swift */; };
 		719CE8D124B0C3C400A23AE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CE8D024B0C3C400A23AE5 /* SceneDelegate.swift */; };
-		719CE8D324B0C3C400A23AE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CE8D224B0C3C400A23AE5 /* ContentView.swift */; };
+		719CE8D324B0C3C400A23AE5 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CE8D224B0C3C400A23AE5 /* AuthenticationView.swift */; };
 		719CE8D524B0C3C700A23AE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719CE8D424B0C3C700A23AE5 /* Assets.xcassets */; };
 		719CE8D824B0C3C700A23AE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719CE8D724B0C3C700A23AE5 /* Preview Assets.xcassets */; };
 		719CE8DB24B0C3C700A23AE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 719CE8D924B0C3C700A23AE5 /* LaunchScreen.storyboard */; };
+		719CE8E524B0D03300A23AE5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 719CE8E424B0D03300A23AE5 /* GoogleService-Info.plist */; };
+		719CE8E724B0DAB100A23AE5 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CE8E624B0DAB100A23AE5 /* SessionStore.swift */; };
+		719CE8E924B0EB0F00A23AE5 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CE8E824B0EB0F00A23AE5 /* SignInView.swift */; };
+		719CE8EB24B0EB1D00A23AE5 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CE8EA24B0EB1D00A23AE5 /* SignUpView.swift */; };
+		71B3190C24B4BF67006536A6 /* IssueDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B3190B24B4BF67006536A6 /* IssueDescriptionView.swift */; };
+		71F2A26224B7583B00C441EA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F2A26124B7583B00C441EA /* HistoryView.swift */; };
+		71F2A26524B7593500C441EA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F2A26424B7593500C441EA /* History.swift */; };
+		9A519607EE95A3AF24E64F8B /* Pods_ReparoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F27C951EBA400E4C0D32AD /* Pods_ReparoTests.framework */; };
+		A374A2DD44B630F479336F10 /* Pods_Reparo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C516CB86D4ED5ACEF98484 /* Pods_Reparo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7120333024B7458E00063859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 719CE8C324B0C3C300A23AE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 719CE8CA24B0C3C300A23AE5;
+			remoteInfo = Reparo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		06F701556700A8E28074B0E8 /* Pods-ReparoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReparoTests.release.xcconfig"; path = "Target Support Files/Pods-ReparoTests/Pods-ReparoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3505CBB77FE64B98A43FA370 /* Pods-ReparoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReparoTests.debug.xcconfig"; path = "Target Support Files/Pods-ReparoTests/Pods-ReparoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43C516CB86D4ED5ACEF98484 /* Pods_Reparo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reparo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F27C951EBA400E4C0D32AD /* Pods_ReparoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReparoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7120332524B72E7300063859 /* InverventionValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InverventionValidation.swift; sourceTree = "<group>"; };
+		7120332B24B7458E00063859 /* ReparoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReparoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7120332D24B7458E00063859 /* ReparoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReparoTests.swift; sourceTree = "<group>"; };
+		7120332F24B7458E00063859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7120333524B745AC00063859 /* InterventionValidationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterventionValidationTests.swift; sourceTree = "<group>"; };
+		7150FE2024B4A30400764E91 /* IssueCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueCreationView.swift; sourceTree = "<group>"; };
+		7150FE2224B4A34100764E91 /* IssueCreation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueCreation.swift; sourceTree = "<group>"; };
+		716A8D1724B4B16900FAB383 /* IssueTypeFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueTypeFormView.swift; sourceTree = "<group>"; };
+		716A8D1924B4B26D00FAB383 /* IssuePrecisionFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuePrecisionFormView.swift; sourceTree = "<group>"; };
+		716A8D1B24B4B4E800FAB383 /* IssueConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueConfirmationView.swift; sourceTree = "<group>"; };
+		718A6CDE24B4703D00567E03 /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		718A6CE224B4724500567E03 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		718DF00324B76AE70096CD1E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		719CE8CB24B0C3C300A23AE5 /* Reparo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reparo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719CE8CE24B0C3C300A23AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		719CE8D024B0C3C400A23AE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		719CE8D224B0C3C400A23AE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		719CE8D224B0C3C400A23AE5 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		719CE8D424B0C3C700A23AE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		719CE8D724B0C3C700A23AE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		719CE8DA24B0C3C700A23AE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		719CE8DC24B0C3C700A23AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		719CE8E424B0D03300A23AE5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		719CE8E624B0DAB100A23AE5 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		719CE8E824B0EB0F00A23AE5 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		719CE8EA24B0EB1D00A23AE5 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		71B3190B24B4BF67006536A6 /* IssueDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDescriptionView.swift; sourceTree = "<group>"; };
+		71F2A26124B7583B00C441EA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HistoryView.swift; path = Reparo/History/HistoryView.swift; sourceTree = SOURCE_ROOT; };
+		71F2A26424B7593500C441EA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		B76A514CB21A826EE30D1BAA /* Pods-Reparo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reparo.debug.xcconfig"; path = "Target Support Files/Pods-Reparo/Pods-Reparo.debug.xcconfig"; sourceTree = "<group>"; };
+		E9E7733AE3D243CF2A00E672 /* Pods-Reparo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reparo.release.xcconfig"; path = "Target Support Files/Pods-Reparo/Pods-Reparo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7120332824B7458E00063859 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A519607EE95A3AF24E64F8B /* Pods_ReparoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		719CE8C824B0C3C300A23AE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A374A2DD44B630F479336F10 /* Pods_Reparo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7120332C24B7458E00063859 /* ReparoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7120332D24B7458E00063859 /* ReparoTests.swift */,
+				7120333524B745AC00063859 /* InterventionValidationTests.swift */,
+				7120332F24B7458E00063859 /* Info.plist */,
+			);
+			path = ReparoTests;
+			sourceTree = "<group>";
+		};
+		7150FE2424B4A34600764E91 /* Issue Creation */ = {
+			isa = PBXGroup;
+			children = (
+				7150FE2024B4A30400764E91 /* IssueCreationView.swift */,
+				716A8D1724B4B16900FAB383 /* IssueTypeFormView.swift */,
+				716A8D1924B4B26D00FAB383 /* IssuePrecisionFormView.swift */,
+				71B3190B24B4BF67006536A6 /* IssueDescriptionView.swift */,
+				716A8D1B24B4B4E800FAB383 /* IssueConfirmationView.swift */,
+				7150FE2224B4A34100764E91 /* IssueCreation.swift */,
+				7120332524B72E7300063859 /* InverventionValidation.swift */,
+			);
+			path = "Issue Creation";
+			sourceTree = "<group>";
+		};
+		716711C624B49CF4006E765B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				718A6CE224B4724500567E03 /* Main.swift */,
+				718DF00324B76AE70096CD1E /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		719CE8C224B0C3C300A23AE5 = {
 			isa = PBXGroup;
 			children = (
 				719CE8CD24B0C3C300A23AE5 /* Reparo */,
+				7120332C24B7458E00063859 /* ReparoTests */,
 				719CE8CC24B0C3C300A23AE5 /* Products */,
+				D8A3E310AB7E1FF8A92BFE83 /* Pods */,
+				94BDFB7350F3556B70E22F1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				719CE8CB24B0C3C300A23AE5 /* Reparo.app */,
+				7120332B24B7458E00063859 /* ReparoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,9 +160,15 @@
 			children = (
 				719CE8CE24B0C3C300A23AE5 /* AppDelegate.swift */,
 				719CE8D024B0C3C400A23AE5 /* SceneDelegate.swift */,
-				719CE8D224B0C3C400A23AE5 /* ContentView.swift */,
+				719CE8D224B0C3C400A23AE5 /* AuthenticationView.swift */,
+				718A6CDE24B4703D00567E03 /* DatabaseService.swift */,
+				71F2A26324B7592200C441EA /* History */,
+				719CE8EE24B4642600A23AE5 /* Authentication */,
+				716711C624B49CF4006E765B /* Main */,
+				7150FE2424B4A34600764E91 /* Issue Creation */,
 				719CE8D424B0C3C700A23AE5 /* Assets.xcassets */,
 				719CE8D924B0C3C700A23AE5 /* LaunchScreen.storyboard */,
+				719CE8E424B0D03300A23AE5 /* GoogleService-Info.plist */,
 				719CE8DC24B0C3C700A23AE5 /* Info.plist */,
 				719CE8D624B0C3C700A23AE5 /* Preview Content */,
 			);
@@ -75,16 +183,79 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		719CE8EE24B4642600A23AE5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				719CE8E824B0EB0F00A23AE5 /* SignInView.swift */,
+				719CE8EA24B0EB1D00A23AE5 /* SignUpView.swift */,
+				719CE8E624B0DAB100A23AE5 /* SessionStore.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		71F2A26324B7592200C441EA /* History */ = {
+			isa = PBXGroup;
+			children = (
+				71F2A26124B7583B00C441EA /* HistoryView.swift */,
+				71F2A26424B7593500C441EA /* History.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		94BDFB7350F3556B70E22F1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43C516CB86D4ED5ACEF98484 /* Pods_Reparo.framework */,
+				69F27C951EBA400E4C0D32AD /* Pods_ReparoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8A3E310AB7E1FF8A92BFE83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B76A514CB21A826EE30D1BAA /* Pods-Reparo.debug.xcconfig */,
+				E9E7733AE3D243CF2A00E672 /* Pods-Reparo.release.xcconfig */,
+				3505CBB77FE64B98A43FA370 /* Pods-ReparoTests.debug.xcconfig */,
+				06F701556700A8E28074B0E8 /* Pods-ReparoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7120332A24B7458E00063859 /* ReparoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7120333224B7458E00063859 /* Build configuration list for PBXNativeTarget "ReparoTests" */;
+			buildPhases = (
+				B8FE429B122D6BE2C13069DF /* [CP] Check Pods Manifest.lock */,
+				7120332724B7458E00063859 /* Sources */,
+				7120332824B7458E00063859 /* Frameworks */,
+				7120332924B7458E00063859 /* Resources */,
+				AD0D719107EA20A96413FF41 /* [CP] Embed Pods Frameworks */,
+				3310556762DC08722A51244D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7120333124B7458E00063859 /* PBXTargetDependency */,
+			);
+			name = ReparoTests;
+			productName = ReparoTests;
+			productReference = 7120332B24B7458E00063859 /* ReparoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		719CE8CA24B0C3C300A23AE5 /* Reparo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 719CE8DF24B0C3C700A23AE5 /* Build configuration list for PBXNativeTarget "Reparo" */;
 			buildPhases = (
+				5ADEAC3F9387E923E9881E71 /* [CP] Check Pods Manifest.lock */,
 				719CE8C724B0C3C300A23AE5 /* Sources */,
 				719CE8C824B0C3C300A23AE5 /* Frameworks */,
 				719CE8C924B0C3C300A23AE5 /* Resources */,
+				EC8EFDC26859374B3990E3FC /* [CP] Embed Pods Frameworks */,
+				001732CB5AF0C652F7D2DDF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +276,10 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "BOUBERBOUCHE Antoine";
 				TargetAttributes = {
+					7120332A24B7458E00063859 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 719CE8CA24B0C3C300A23AE5;
+					};
 					719CE8CA24B0C3C300A23AE5 = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -124,35 +299,191 @@
 			projectRoot = "";
 			targets = (
 				719CE8CA24B0C3C300A23AE5 /* Reparo */,
+				7120332A24B7458E00063859 /* ReparoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7120332924B7458E00063859 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		719CE8C924B0C3C300A23AE5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				719CE8DB24B0C3C700A23AE5 /* LaunchScreen.storyboard in Resources */,
 				719CE8D824B0C3C700A23AE5 /* Preview Assets.xcassets in Resources */,
+				719CE8E524B0D03300A23AE5 /* GoogleService-Info.plist in Resources */,
 				719CE8D524B0C3C700A23AE5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		001732CB5AF0C652F7D2DDF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reparo/Pods-Reparo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reparo/Pods-Reparo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reparo/Pods-Reparo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3310556762DC08722A51244D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReparoTests/Pods-ReparoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReparoTests/Pods-ReparoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReparoTests/Pods-ReparoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ADEAC3F9387E923E9881E71 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reparo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD0D719107EA20A96413FF41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReparoTests/Pods-ReparoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReparoTests/Pods-ReparoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReparoTests/Pods-ReparoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8FE429B122D6BE2C13069DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReparoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC8EFDC26859374B3990E3FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reparo/Pods-Reparo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reparo/Pods-Reparo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reparo/Pods-Reparo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		7120332724B7458E00063859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7120332E24B7458E00063859 /* ReparoTests.swift in Sources */,
+				7120333624B745AC00063859 /* InterventionValidationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		719CE8C724B0C3C300A23AE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F2A26524B7593500C441EA /* History.swift in Sources */,
+				718DF00424B76AE70096CD1E /* MainView.swift in Sources */,
+				718A6CE324B4724500567E03 /* Main.swift in Sources */,
+				719CE8E924B0EB0F00A23AE5 /* SignInView.swift in Sources */,
+				71F2A26224B7583B00C441EA /* HistoryView.swift in Sources */,
+				71B3190C24B4BF67006536A6 /* IssueDescriptionView.swift in Sources */,
 				719CE8CF24B0C3C300A23AE5 /* AppDelegate.swift in Sources */,
+				719CE8E724B0DAB100A23AE5 /* SessionStore.swift in Sources */,
+				7150FE2124B4A30400764E91 /* IssueCreationView.swift in Sources */,
+				719CE8EB24B0EB1D00A23AE5 /* SignUpView.swift in Sources */,
+				7150FE2324B4A34100764E91 /* IssueCreation.swift in Sources */,
+				7120332624B72E7300063859 /* InverventionValidation.swift in Sources */,
+				716A8D1824B4B16900FAB383 /* IssueTypeFormView.swift in Sources */,
 				719CE8D124B0C3C400A23AE5 /* SceneDelegate.swift in Sources */,
-				719CE8D324B0C3C400A23AE5 /* ContentView.swift in Sources */,
+				719CE8D324B0C3C400A23AE5 /* AuthenticationView.swift in Sources */,
+				718A6CDF24B4703D00567E03 /* DatabaseService.swift in Sources */,
+				716A8D1A24B4B26D00FAB383 /* IssuePrecisionFormView.swift in Sources */,
+				716A8D1C24B4B4E800FAB383 /* IssueConfirmationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7120333124B7458E00063859 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 719CE8CA24B0C3C300A23AE5 /* Reparo */;
+			targetProxy = 7120333024B7458E00063859 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		719CE8D924B0C3C700A23AE5 /* LaunchScreen.storyboard */ = {
@@ -166,6 +497,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7120333324B7458E00063859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3505CBB77FE64B98A43FA370 /* Pods-ReparoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP39C69WNU;
+				INFOPLIST_FILE = ReparoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.commeunchinois.ReparoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reparo.app/Reparo";
+			};
+			name = Debug;
+		};
+		7120333424B7458E00063859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F701556700A8E28074B0E8 /* Pods-ReparoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PP39C69WNU;
+				INFOPLIST_FILE = ReparoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.commeunchinois.ReparoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reparo.app/Reparo";
+			};
+			name = Release;
+		};
 		719CE8DD24B0C3C700A23AE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -282,6 +655,7 @@
 		};
 		719CE8E024B0C3C700A23AE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76A514CB21A826EE30D1BAA /* Pods-Reparo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +676,7 @@
 		};
 		719CE8E124B0C3C700A23AE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E7733AE3D243CF2A00E672 /* Pods-Reparo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -323,6 +698,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7120333224B7458E00063859 /* Build configuration list for PBXNativeTarget "ReparoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7120333324B7458E00063859 /* Debug */,
+				7120333424B7458E00063859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		719CE8C624B0C3C300A23AE5 /* Build configuration list for PBXProject "Reparo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
